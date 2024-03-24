@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%
+   
+}
+
+
+.up{
+   
+width: 100%;
+height: 100%;
+    background: url('https://www.springboard.com/blog/wp-content/uploads/2022/02/is-ai-hard-to-learn-scaled.jpg ');
+opacity: 0.8;
+    background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+}
+
+#head{
+    color: white;
+    text-align: center;
+    padding: 70px;
+    width: 150vh;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+
+#inputype{
+    width: 80vh; height: 40px; border-radius: 50px; border: none; 
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    z-index: 1 ;
+
+}
+
+#texts{
+    padding: 15px;
+}
+
+.generatenow{
+    background-color: rgb(0, 48, 125);
+    width: 15vh;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    
+}
+
+#option{
+    background-color: white;
+    border:none ;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.downloadbtn{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    /* margin: 5px;
+    padding: 10px;  */
+width: 40px;
+height: 40px;
+background-color: rgb(218, 223, 232);
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.down{
+     position: relative;
+    display: flex;
+    gap: 10px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.img-card{
+    position: relative;
+    margin: 5px;
+}
+
+.loader{
+    animation: spin 2s  infinite;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+  @media screen and (max-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
+
+
+
+
+
+
+
